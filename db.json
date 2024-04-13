@@ -2,32 +2,32 @@
 {
     "films": [
     {
-    "id":"1",
+    "id":"first",
     "name":"Casual Shirt",
     "price":45,
     "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing.",
     "img":"./images/img-1.jpg"
 },
 {
-    "id":"2",
+    "id":"second",
     "name":"Office Shirt",
     "price":100,
     "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing.",
     "img":"./images/img-2.jpg"
 },
 {
-    "id":"3",
+    "id":"third",
     "name":"T Shirt",
     "price":25,
     "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing.",
     "img":"./images/img-3.jpg"
 },
 {
-    "id":"1",
+    "id":"fourth",
     "name":"Men's Suits",
     "price":300,
     "desc":"Lorem ipsum, dolor sit amet consectetur adipisicing.",
-    "img":"./images/img-1.jpg"
+    "img":"./images/img-4.jpg"
 }
 ],
 "basket": []
