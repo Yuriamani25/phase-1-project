@@ -1,22 +1,22 @@
 document.addEventListener("DOMContentLoaded", (e) => {
     e.preventDefault()
     fetchData()
-    basketContent()
+    //basketContent()
 })
 
 let basket =  JSON.parse(localStorage.getItem("data")) || [] 
 console.log(basket);
 
-function basketContent() {
-    fetch("http://localhost:3000/basket")
-    .then((res) => res.json())
-    .then(basket => {console.log(basket);})
-}
+// function basketContent() {
+//     fetch("http://localhost:3000/basket")
+//     .then((res) => res.json())
+//     .then(basket => {console.log(basket);})
+// }
 
 //const basket = basketContent()
 
 function fetchData() {
-    fetch("http://localhost:3000/films")
+    fetch("http://localhost:3000/gadgets")
     .then((res) => res.json())
     .then(generateShop)
 }
@@ -25,16 +25,17 @@ function fetchData() {
         
 function generateShop(shopItemsData){
             return (shop.innerHTML= shopItemsData.map((x) => {
-                let {id,name,price,desc,img} = x
+                let {id,name,price,color,capacity,img} = x
                 localStorage.setItem('data', JSON.stringify(basket)) //post
                 let search = basket.find((x) => x.id === id) || []
                 
                 return `
                 <div id= product-id-${id} class="item">
-                <img width="220" src=${img} alt="">
+                <img width="220" height="300" src=${img} alt="">
                 <div class="details">
                     <h3>${name}</h3>
-                    <p>${desc}</p>
+                    <p>${color}</p>
+                    <p>${capacity}</P>
                     <div class="price-quantity">
                         <h2>$ ${price}</h2>
                         <div class="buttons">
@@ -107,5 +108,3 @@ let calculation = () => {
 }
 
  calculation()
-
-
