@@ -59,14 +59,5 @@
 }
 ],
 
-   "basket": [
-    {
-        "id": "third",
-        "item": 1
-    },
-    {
-        "id": "first",
-        "item": 1
-        }
-    ]
+   "basket": []
 }
