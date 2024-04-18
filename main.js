@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
 let basket = JSON.parse(localStorage.getItem("data")) || [];
 
 function fetchData() {
-    fetch("http://localhost:3000/gadgets")
+    fetch("https://my-json-server.typicode.com/Yuriamani25/phase-1-project/gadgets")
         .then((res) => res.json())
         .then(generateShop);
 }
@@ -27,8 +27,8 @@ function generateShop(shopItemsData) {
                         <p>${capacity}</P>
                         <div class="price-quantity">
                             <h2>$ ${price}</h2>
-                            <div id='${id}' class="male">${search.item === undefined ? 0 : search.item}</div>
                             <button class="increment-button" data-id="${id}">+</button>
+                            <div id='${id}' class="male">${search.item === undefined ? 0 : search.item}</div>
                             <button class="decrement-button" data-id="${id}">-</button>
                         </div>
                     </div>
@@ -108,3 +108,4 @@ let calculation = () => {
 }
 
 calculation();
+console.log(object);

@@ -1,63 +1,61 @@
-
 {
-    "gadgets": [
+  "gadgets": [
     {
-    "id":"first",
-    "name":"Google Pixel 6 Pro",
-    "price":449.99,
-    "color":"Cloudy White",
-    "capacity":"128 GB",
-    "img":"./images/Google-Pixel-6-Pro-Cloudy-White.jpg"
-},
-{
-    "id":"sec",
-    "name":"Apple iPhone 12 Mini",
-    "price":679.99,
-    "color":"Blue",
-    "capacity":"256 GB",
-    "img":"./images/Apple-iPhone-12-mini-b.jpg"
-},
-{
-    "id":"second",
-    "name":"Apple iPhone 12 Pro Max",
-    "price":569.99,
-    "color":"Cloudy White",
-    "capacity":"512 GB",
-    "img":"./images/13-pro-max3-500x500.webp"
-},
-{
-    "id":"third",
-    "name":"Apple iPhone 11, 64GB",
-    "price":389.99,
-    "color":"Purple",
-    "capacity":"64 GB",
-    "img":"./images/Apple-iPhone-12-mini-b.jpg"
-},
-{
-    "id":"fourth",
-    "name":"Samsung Galaxy Z Fold2",
-    "price":689.99,
-    "color":"Brown",
-    "capacity":"64 GB",
-    "img":"./images/images.jpeg"
-},
-{
-    "id":"fifth",
-    "name":"Apple iPad Air",
-    "price":419.99,
-    "color":"Brown",
-    "capacity":"64 GB",                   
-    "img":"./images/61w9uBG+CvL._AC_UF894,1000_QL80_.jpg"
-},
-{
-    "id":"sixth",
-    "name":"I Phone Touch Screen",
-    "price":689.99,
-    "color":"Blue",
-    "capacity":"256 GB",
-    "img":"./images/61967387a2e68800198adc27.webp"
-}
-],
-
-   "basket": []
+      "id": "first",
+      "name": "Google Pixel 6 Pro",
+      "price": 449.99,
+      "color": "Cloudy White",
+      "capacity": "128 GB",
+      "img": "./images/Google-Pixel-6-Pro-Cloudy-White.jpg"
+    },
+    {
+      "id": "sec",
+      "name": "Apple iPhone 12 Mini",
+      "price": 679.99,
+      "color": "Blue",
+      "capacity": "256 GB",
+      "img": "./images/ee37fe6f-7037-4503-bd72-ca42e5bcad3d_1.158bd82849fe24b6b34a1f7ad1445204.webp"
+    },
+    {
+      "id": "second",
+      "name": "Apple iPhone 12 Pro Max",
+      "price": 569.99,
+      "color": "Cloudy White",
+      "capacity": "512 GB",
+      "img": "./images/13-pro-max3-500x500.webp"
+    },
+    {
+      "id": "third",
+      "name": "Apple iPhone 11, 64GB",
+      "price": 560.99,
+      "color": "Purple",
+      "capacity": "64 GB",
+      "img": "./images/Apple-iPhone-12-mini-b.jpg"
+    },
+    {
+      "id": "fourth",
+      "name": "Samsung Galaxy Z Fold2",
+      "price": 689.99,
+      "color": "Brown",
+      "capacity": "64 GB",
+      "img": "./images/images.jpeg"
+    },
+    {
+      "id": "fifth",
+      "name": "Apple iPad Air",
+      "price": 859.79,
+      "color": "cream white",
+      "capacity": "64 GB",
+      "img": "./images/61w9uBG+CvL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "sixth",
+      "name": "I Phone Touch Screen",
+      "price": 689.99,
+      "color": "Blue",
+      "capacity": "256 GB",
+      "img": "./images/61967387a2e68800198adc27.webp"
+    }
+  ],
+  "basket": []
 }
